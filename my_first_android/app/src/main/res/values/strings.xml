@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">my_first_android</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="btnCurrent">current time</string>
+</resources>
