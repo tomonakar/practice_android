@@ -3,6 +3,7 @@ package com.example.my_first_android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
@@ -19,16 +20,22 @@ class MainActivity : AppCompatActivity() {
      */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val now = Date().toString()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnCurrent.setOnClickListener {
-            binding.txtResult.text = Date().toString()
+            binding.txtResult.text = now
             /**
              * トーストオブジェクトの生成
              */
             val toast = Toast.makeText(this@MainActivity,
-            Date().toString(),Toast.LENGTH_LONG)
+            now,Toast.LENGTH_LONG)
             toast.show()
+
+            /**
+             * ログ出力
+             */
+            Log.d("CurrentTime", now)
         }
     }
 
