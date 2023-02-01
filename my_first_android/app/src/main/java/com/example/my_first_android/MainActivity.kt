@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             /**
              * トーストオブジェクトの生成
              */
-            val toast = Toast.makeText(this,
+            val toast = Toast.makeText(this@MainActivity,
             Date().toString(),Toast.LENGTH_LONG)
             toast.show()
         }
