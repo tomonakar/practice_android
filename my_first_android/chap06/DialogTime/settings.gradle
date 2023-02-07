@@ -1,0 +1,2 @@
+rootProject.name = "DialogTime"
+include ':app'

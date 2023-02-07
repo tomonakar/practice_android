@@ -1,0 +1,2 @@
+rootProject.name = "MotionBasic"
+include ':app'

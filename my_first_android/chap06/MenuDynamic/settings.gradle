@@ -1,0 +1,2 @@
+rootProject.name = "MenuDynamic"
+include ':app'

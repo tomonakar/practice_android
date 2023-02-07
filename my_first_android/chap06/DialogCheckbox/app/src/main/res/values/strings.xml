@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DialogCheckbox</string>
+    <string-array name="items">
+        <item>電車</item>
+        <item>バス</item>
+        <item>徒歩</item>
+        <item>マイカー</item>
+        <item>自転車</item>
+        <item>その他</item>
+    </string-array>
+</resources>

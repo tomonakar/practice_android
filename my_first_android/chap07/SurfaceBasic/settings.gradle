@@ -1,0 +1,2 @@
+rootProject.name = "SurfaceBasic"
+include ':app'

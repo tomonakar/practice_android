@@ -1,0 +1,26 @@
+{
+  "books":
+  [
+    {
+      "isbn":"978-4-7980-4535-1",
+      "title":"はじめてのASP.NET",
+       "author":"WINGSプロジェクト",
+       "published":"秀和システム",
+       "price":"3000"
+    },
+    {
+      "isbn":"978-4-7980-4179-7",
+      "title":"ASP.NET Core実践プログラミング",
+      "author":"山田祥寛",
+      "published":"秀和システム",
+      "price":"3500"
+    },
+    {
+      "isbn":"978-4-7981-3547-2",
+      "title":"独習PHP",
+      "author":"山田祥寛",
+      "published":"翔泳社",
+      "price":"3200"
+    }
+  ]
+}

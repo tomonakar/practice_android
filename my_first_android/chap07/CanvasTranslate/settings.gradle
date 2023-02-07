@@ -1,0 +1,2 @@
+rootProject.name = "CanvasTranslate"
+include ':app'

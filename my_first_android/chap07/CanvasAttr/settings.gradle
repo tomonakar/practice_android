@@ -1,0 +1,2 @@
+rootProject.name = "CanvasAttr"
+include ':app'

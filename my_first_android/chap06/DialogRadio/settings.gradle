@@ -1,0 +1,2 @@
+rootProject.name = "DialogRadio"
+include ':app'
